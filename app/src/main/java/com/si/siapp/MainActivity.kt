@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                         Greeting(
-                            name = "Sportz Interactive",
+                            name = "SI app user",
                             modifier = Modifier.padding(innerPadding)
                         )
                     }
